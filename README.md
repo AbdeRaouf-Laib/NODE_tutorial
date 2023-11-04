@@ -1,27 +1,28 @@
 # NODE.js
 
-## Commands :
-- command 01 :
-```shell
+## Commands
 
-```
-- command 01 :
-```shell
+- **create node.js _App_**  in project dir :
 
-```
-- command 01 :
 ```shell
-
+npm install node
 ```
-- command 01 :
+
+- **Upgrade node.js** to the latest _version_ :
+
 ```shell
-
+npm install n -g \
+n latest
 ```
-- command 01 :
+
+- **Runing node.js _App_** simply type :
+
 ```shell
-
+node App.js
 ```
-- command 01 :
-```shell
 
-```
+## Resources
+
+### websites
+
+- [codeing addict](https://johnsmilga.com/)
