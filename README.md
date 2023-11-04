@@ -4,20 +4,20 @@
 
 - **create node.js _App_**  in project dir :
 
-```shell
+```bash
 npm install node
 ```
 
 - **Upgrade node.js** to the latest _version_ :
 
-```shell
+```bash
 npm install n -g \
 n latest
 ```
 
 - **Runing node.js _App_** simply type :
 
-```shell
+```bash
 node App.js
 ```
 
