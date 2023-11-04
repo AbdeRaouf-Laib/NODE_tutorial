@@ -44,9 +44,9 @@ const { log } = require("console")
 /*******************Example**********************/
 const amount = 12
 
-if (amount < 12){
+if (amount < 12) {
     console.log("amounte inf then 12")
-}else{
+} else {
     console.log('amounte sup then 12')
 }
 console.log(`Hay!!`)
