@@ -32,8 +32,8 @@
 /* require    -function to use modules (CommonJS)*/
 /* module     -info about current module (file)*/
 /* process    -info about env where thr program is being excuted*/
-/* */
-/* */
+/* console.log("__dirname",__dirname) console.log("__filename",__filename) console.log("require",require ) console.log("module",module ) console.log("process",process)*/
+/* setI*/
 /* */
 /* */
 /* */
@@ -50,4 +50,6 @@ if (amount < 12) {
     console.log('amounte sup then 12')
 }
 console.log(`Hay!!`)
-console.log(__dirname)
+setInterval(() =>{
+    console.log("hello world");
+},1000)
