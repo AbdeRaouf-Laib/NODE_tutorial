@@ -1,28 +1,68 @@
 # NODE.js
 
-## Commands
+## Getting started
 
-- **create node.js _App_**  in project dir :
+### installation :
 
-```bash
-npm install node
-```
+- Windows, look into this page :
+  **Download pre-built installer**
+  [node download page](https://nodejs.org/en/download/)
 
-- **Upgrade node.js** to the latest _version_ :
+- Linux, multiple distributions:
 
-```bash
-npm install n -g \
-n latest
-```
-
-- **Runing node.js _App_** simply type :
+**Arch Linux :**
 
 ```bash
-node App.js
+pacman -S nodejs npm
 ```
 
-## Resources
+**Debian as root :**
 
-### websites
+```bash
+curl -fsSL https://deb.nodesource.com/setup_21.x | bash - &&\
+apt-get install -y nodejs
+```
 
-- [codeing addict](https://johnsmilga.com/)
+**Ubuntu :**
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+```
+
+- Docker :
+
+**Official Node.js Docker Image**
+
+```bash
+docker pull node
+```
+
+### staring a new project :
+
+- create a new folder and type this command :
+
+```bash
+npm init
+```
+
+**package.json** content "just type package name and press <kbd>Enter</kbd>"
+
+```txt
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+```
+
+this will initialize a new node.js by
+creating a new file named package.json
+with information about the created package .
