@@ -7,11 +7,15 @@
 - [Operating system-related utility](./docs/sys.md) -- TODO
 - [File I/O and Paths](./docs/fs-io.md) -- TODO
 - [Compression (Zlib == gzip ...)](./docs/compression.md) -- TODO
+
   **Network**
+
 - [(HTTP/HTTP2/HTTPS) no external library](./docs/net.md) -- TODO
 - [URL resolution and parsing](./docs/url.md) -- TODO
 - [DNS](./docs/dns.md) -- TODO
+
   **Processes**
+
 - [Spawn subprocesses ](./docs/subproc.md) -- TODO
 - [Control over Node.js process](./docs/controlproc.md) -- TODO
 - [Execute JavaScript in parallel (worker threads)](./docs/worker.md) -- TODO
